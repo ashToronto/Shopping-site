@@ -2,6 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  width: 100%;
+  background-color: azure;
+}
+
+.page-container {
+  width: 800px;
+  margin: 10px auto;
+  background-color: white;
 }
 
 .product-listing {
