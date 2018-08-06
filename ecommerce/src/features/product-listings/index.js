@@ -1,10 +1,11 @@
 import React from 'react';
-import productListItem from './product-list-item';
+import ProductListItem from './product-list-item';
 
-export default productListing(props){
+export default function productListing(props) {
   return <div>
+    {
     props.products.map(product =>
-      <productListItem product = {product} />
-    )
+      <ProductListItem product = {product} />)
+    }
   </div>
 }
