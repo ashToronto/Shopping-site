@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-export default cartItemsWithQuantity = () => {
+export const cartItemsWithQuantity = (cartItems) => {
   return cartItems.reduce((acc, item) => {
     const filteredItem = acc.filter(item2 => item2.id === item.id)[0]
     filteredItem !== undefined
