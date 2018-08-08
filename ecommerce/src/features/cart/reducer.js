@@ -1,8 +1,8 @@
 // Helper function to add all cart items without the new items id
-const cartWithoutItem = (cart, item) => cart.filter(cartItem => cartItem.id !== cartItem.id )
+const cartWithoutItem = (cart, item) => cart.filter(cartItem => cartItem.id !== item.id )
 
 //helper function to get a single item added to cart
-const itemInCart = (cart, item) => cart.filter(cartItem => cartItem.id === cartItem.id )[0]
+const itemInCart = (cart, item) => cart.filter(cartItem => cartItem.id === item.id)[0]
 
 // helper function add to cart
 const addToCart = (cart, item) => {
