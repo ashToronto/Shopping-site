@@ -4,6 +4,7 @@ const cartWithoutItem = (cart, item) => cart.filter(cartItem => cartItem.id !== 
 //helper function to get a single item added to cart
 const itemInCart = (cart, item) => cart.filter(cartItem => cartItem.id === cartItem.id )[0]
 
+// helper function add to cart
 const addToCart = (cart, item) => {
   const cartItem = itemInCart(cart, item)
   return cartItem === undefined
@@ -11,7 +12,12 @@ const addToCart = (cart, item) => {
   : [...cartWithoutItem(cart, item),{...cartItem, quantity: cartItem.quantity + 1}]
 }
 
-
+// helper function remove from cart
+const removeFromCart = (cart, item) => {
+  return item.quantity === 1
+  ? [...cartWithoutItem(cart, item)]
+  : [...cartWithoutItem(cart, item), {...item, quantity: item.quantity - 1}]
+}
 
 // Setting state with reduce
 const cartReducer = (state=[], action) => {
