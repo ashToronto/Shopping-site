@@ -51,4 +51,4 @@ function mapDispatchToProps(dispatch){
   }
 }
 
-export default connect(mapStateToProps)(Cart)
+export default connect(mapStateToProps, mapDispatchToProps)(Cart)
