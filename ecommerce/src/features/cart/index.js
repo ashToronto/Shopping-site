@@ -18,8 +18,8 @@ function Cart(props){
     <tbody>
       {
         sort(props.cart).map(item => <tr>
-          <td>{ item.name }</td>
-          <td>{ item.quantity }</td>
+          <td align="left">{ item.name }</td>
+          <td align="center">{ item.quantity }</td>
           <td>
             <button onClick = {() => props.addToCart(item)}>+</button>
             <button onClick = {() => props.removeFromCart(item)}>-</button>
