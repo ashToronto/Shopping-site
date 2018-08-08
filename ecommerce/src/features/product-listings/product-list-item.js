@@ -1,5 +1,7 @@
 import React from 'react';
 import AddButton from './add-button'
+import RemoveButton from './remove-button'
+
 
 export default function ProductListItem(props) {
 
@@ -21,6 +23,16 @@ export default function ProductListItem(props) {
           product = {props.product}
           addToCart = {props.addToCart}
           />
+
+        {
+          props.cartItem
+            ?   <RemoveButton
+                cartItem = {props.cartItem}
+                product = {props.product}
+                removeFromCart = {props.removeFromCart}
+                />
+              : null
+        }
     </div>
   </div>
 }

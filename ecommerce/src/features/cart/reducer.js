@@ -27,8 +27,7 @@ const cartReducer = (state=[], action) => {
 
     case 'REMOVE':
     //Removes only first instance of repeated items
-    const firstMatchIndex = state.indexOf(action.payload)
-    return state.filter((item, index) => index !== firstMatchIndex)
+    return removeFromCart(state, action.payload)
 
     default:
     return state;
