@@ -8,7 +8,7 @@ const addToCart = (cart, item) => {
   const cartItem = itemInCart(cart, item)
   return cartItem === undefined
   ? [...cartWithoutItem(cart, item), {...item, quantity: 1}]
-  ; [...cartWithoutItem(cart, item),(...cartItem, quantity: cartItem.quantity + 1 )]
+  : [...cartWithoutItem(cart, item),{...cartItem, quantity: cartItem.quantity + 1}]
 }
 
 
