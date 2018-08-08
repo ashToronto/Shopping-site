@@ -19,6 +19,11 @@ const removeFromCart = (cart, item) => {
   : [...cartWithoutItem(cart, item), {...item, quantity: item.quantity - 1}]
 }
 
+// helper removes all from cart on cart page
+const removeAllFromCart = (cart, item) => {
+  return [...cartWithoutItem(cart, item)]
+}
+
 // Setting state with reduce
 const cartReducer = (state=[], action) => {
   switch(action.type) {
@@ -28,6 +33,9 @@ const cartReducer = (state=[], action) => {
     case 'REMOVE':
     //Removes only first instance of repeated items
     return removeFromCart(state, action.payload)
+
+    case 'REMOVE_ALL' :
+    return removeAllFromCart(state, action.payload)
 
     default:
     return state;

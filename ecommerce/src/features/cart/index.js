@@ -17,8 +17,13 @@ function Cart(props){
           <td>{ item.name }</td>
           <td>{ item.quantity }</td>
           <td>
-            <button onClick =(e) => props.addToCart(item)</button>+</button>
-            <button onClick =(e) => props.removeFromCart(item)</button>-</button>
+            <button onClick = {(e) => props.addToCart(item)}>+</button>
+            <button onClick = {(e) => props.removeFromCart(item)}>-</button>
+          </td>
+          <td>
+            <button onClick = {(e) => props.removeAllFromCart(item)}>
+              Clear all
+            </button>
           </td>
         </tr>)
       }
@@ -39,6 +44,9 @@ function mapDispatchToProps(dispatch){
     },
     removeFromCart: (item) => {
       dispatch(type: 'REMOVE', payload: item)
+    },
+    removeAllFromCart: (item) => {
+      dispatch(type: 'REMOVE_ALL', payload: item)
     }
   }
 }
