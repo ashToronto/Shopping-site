@@ -1,4 +1,5 @@
 import React from 'react';
+import AddButton from './add-button'
 
 export default function ProductListItem(props) {
 
@@ -15,11 +16,11 @@ export default function ProductListItem(props) {
     <div>{props.product.description}</div>
       <div>${props.product.price}</div>
       <div>
-        <button onClick = {() => props.addToCart(props.product)}>
-          Add to cart ({
-            (props.cartItem && props.cartItem.quantity) || 0
-          })
-        </button>
+        <AddButton
+          cartItem = {props.cartItem}
+          product = {props.product}
+          addToCart = {props.addToCart}
+          />
     </div>
   </div>
 }
