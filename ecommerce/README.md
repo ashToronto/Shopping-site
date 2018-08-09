@@ -7,7 +7,7 @@ A simple shopping-cart app built as a practice project. The app is powered by Re
 
 ![“Shopping cart home page with items”](https://github.com/ashToronto/Shopping-site/blob/master/ecommerce/docs/Screen%20Shot%202018-08-09%20at%204.56.02%20PM.png?raw=true)
 
-![""](https://github.com/ashToronto/Shopping-site/blob/master/ecommerce/docs/Screen%20Shot%202018-08-09%20at%204.56.37%20PM.png?raw=true)
+![""](https://github.com/ashToronto/Shopping-site/blob/master/ecommerce/docs/Screen%20Shot%202018-08-09%20at%206.54.21%20PM.png?raw=true)
 
 ## Development Dependencies
 
