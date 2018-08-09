@@ -12,7 +12,7 @@ const Navigation = () => <nav>
 class App extends Component {
   render() {
     return <div className='page-container'>
-      <h1>My Shopping Cart</h1>
+      <h1>Shoes FC</h1>
       <Navigation />
     <Router />
     </div>

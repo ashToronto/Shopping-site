@@ -1,68 +1,38 @@
 {
   "products": [{
       "id": 1,
-      "name": "I am Groot",
-      "description": "This stuffed Groot makes an excellent toy for both youngsters due to it's soft nature and adorable design, to fans and collectors of 'The Guardians of the Galaxy' franchise.",
-      "keywords": [
-        "stuffed", "plush", "groot", "guardians of the galaxy"
-      ],
-      "image": "1-groot.jpg",
-      "age": [
-        "0", "+"
-      ],
-      "price": 19.99
+      "name": "Adidas Predators",
+      "description": "Reborn to rule the pitch, these firm ground football boots strap you in for all-out domination. The supportive mesh upper imitates your heel shape for secure lockdown, while a snug collar delivers a sock-like fit for ankle stability. Embossing on the forefoot helps keep the ball under your spell and the match under your control.",
+      "image": "adidas-predators.jpg",
+      "price": 199.99
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear Action Doll",
-      "description": "Buzz Lightyear is a favorite of youngsters. He has a ray-gun, wings that can be retracted or extended on the push of a button, and a grin that could make any alien get a chill up their spine - should they have one.",
-      "keywords": [
-        "action figure", "toy story", "posable", "requires batteries"
-      ],
-      "image": "2-buzz.jpg",
-      "age": [
-        "3", "10"
-      ],
-      "price": 38.50
+      "name": "Nike Mercurial Vapor 360",
+      "description": "The Nike Mercurial Vapor 360 Elite SG-PRO Anti-Clog Soft-Ground Football Boot wraps your foot for a perfect fit and exceptional ball touch. The outsole plate resists mud, providing consistent traction on the pitch.",
+      "image": "nike-vapors.jpg",
+      "price": 339.99
     },
     {
       "id": 3,
-      "name": "Minion Dave",
-      "description": "Dave is a two-eyed and medium-sized minion with nice combed hair. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
-      "keywords": [
-        "stuffed", "plush", "minions", "Despicable Me"
-      ],
-      "image": "3-minion-dave.jpg",
-      "age": [
-        "0", "10"
-      ],
-      "price": 12.99
+      "name": "Nike Phantom Vision",
+      "description": "The Nike Phantom Vision Elite Dynamic Fit Artificial-Grass Football Boot gives you an unrivalled fit and excellent boot-to-ball connection. It's built for players who need precision and control on the pitch.",
+      "image": "nike-phantom.jpg",
+      "price": 99.99
     },
     {
       "id": 4,
-      "name": "Minion Kevin",
-      "description": "Kevin is a tall, two-eyed minion with sprout cut hair and is usually seen wearing his golf apparel. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
-      "keywords": [
-        "stuffed", "plush", "minions", "Despicable Me"
-      ],
-      "image": "4-minion-kevin.jpg",
-      "age": [
-        "0", "10"
-      ],
-      "price": 12.99
+      "name": "Nike Tiempo Legend VII",
+      "description": "The Nike Tiempo Legend VII Elite Firm-Ground Football Boot combines lightweight Flyknit with premium kangaroo leather for a flexible fit and dominating touch on short-grass pitches.",
+      "image": "nike-vapors.jpg",
+      "price": 220.99
     },
     {
       "id": 5,
-      "name": "Minion Bob",
-      "description": "Bob is a short and bald minion with multi-colored eyes (green and brown). He often carries around a teddy bear that he owns called Tim, which is brown with yellow buttoned eyes. This plush version of him is extremely huggable and makes a great best friend for your young child. He is stitched well and has no small parts to choke on.",
-      "keywords": [
-        "stuffed", "plush", "minions", "Despicable Me"
-      ],
-      "image": "5-minion-bob.jpg",
-      "age": [
-        "0", "10"
-      ],
-      "price": 12.99
+      "name": "Adidas Nemeziz",
+      "description": "Fear no back line. Spare no defender from shame. Unlock agility and turn your opponents to stone. Lurk in the shadows and attack with stealth. With Nemeziz, your creativity is unexpected. These football boots have an Agility Mesh upper for quick moves into and out of the box. The agility stud configuration helps you weave through your opponents on firm ground and keep everyone guessing what's coming next.",
+      "image": "pog.jpg",
+      "price": 99.99
     }
   ]
 }

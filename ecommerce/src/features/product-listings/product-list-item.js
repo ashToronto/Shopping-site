@@ -8,9 +8,9 @@ export default function ProductListItem(props) {
   // const thisItemInCart = props.cart.filter(item => item.id === props.product.id)[0]
 
   return <div className='product-list-item'>
-    <h3>{props.name}</h3>
     <img
-      height={100}
+      height={150}
+      width={180}
       title= {props.product.name}
       src={`/products/${props.product.image}`}
       alt=''
