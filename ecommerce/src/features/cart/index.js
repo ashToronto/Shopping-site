@@ -11,6 +11,7 @@ function Cart(props){
       <tr>
         <th>Item</th>
         <th>Quantity</th>
+        <th>Total</th>
         <th></th>
         <th></th>
       </tr>
@@ -20,6 +21,7 @@ function Cart(props){
         sort(props.cart).map(item => <tr>
           <td align="left">{ item.name }</td>
           <td align="center">{ item.quantity }</td>
+          <td align="center">{ (item.price * item.quantity).toFixed(2) }</td>
           <td>
             <button onClick = {() => props.addToCart(item)}>+</button>
             <button onClick = {() => props.removeFromCart(item)}>-</button>
