@@ -15,8 +15,8 @@ A simple shopping-cart app built as a practice project. The app is powered by Re
 * CSS
 * react
 * react-dom
-*react-router
-*react-router-dom
+* react-router
+* react-router-dom
 * redux
 
 ```
@@ -24,6 +24,6 @@ A simple shopping-cart app built as a practice project. The app is powered by Re
 Install the dependencies and start the server.
 
 ```
-yarn 
+yarn
 yarn start
 open http://localhost:3000
