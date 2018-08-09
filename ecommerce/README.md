@@ -12,6 +12,7 @@ A simple shopping-cart app built as a practice project. The app is powered by Re
 ## Development Dependencies
 
 * webpack
+* CSS
 * react
 * react-dom
 *react-router
