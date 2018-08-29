@@ -1,7 +1,7 @@
 Shopping Cart
 =====================
 
-A simple shopping-cart app built as a practice project. The app is powered by ReactJS along with react-trouser and redux. Users can add and remove items to a cart and can navigate between the cart and homepage.
+A simple shopping-cart app built as a practice project. The app is powered by ReactJS along with react-router and redux. Users can add and remove items to a cart and can navigate between the cart and homepage.
 
 ## Screenshot
 
