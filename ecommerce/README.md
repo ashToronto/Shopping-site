@@ -10,7 +10,7 @@ open http://localhost:3000
 ```
 OR
 
-Heroku deployed: The app can be accessed on this [Heroku link](https://peaceful-coast-83936.herokuapp.com/")
+Heroku deployed: The app can be accessed on this [Heroku link](https://peaceful-coast-83936.herokuapp.com/)
 
 
 ## Screenshot
